@@ -22,7 +22,11 @@ import streamlit as st
 
 # In[3]:
 st.title('Case 2 - Wintersportvakanties 1989 - 2016')
-st.write('Toine Smulders, Gabriella Tegov, Kim Nap')
+st.title('Toine Smulders, Gabriella Tegov, Kim Nap')
+
+st.text('Op wintersport gaan, menig Nederlander kijkt er elk jaar weer naar uit. Maar hoe is dit door de jaren heen veranderd?\
+        Is het duurder geworden of juist goedkoper? En hoe lang gaan mensen eigenlijk op wintersport?\
+        Het CBS heeft dit door de jaren heen bijgehouden en veel gegevens verzameld over wintersportvakanties van 1989 tot met 2016')
 
 # Assign URL to variable: url
 url = 'https://opendata.cbs.nl/ODataApi/odata/37282/TypedDataSet'
