@@ -21,7 +21,8 @@ import streamlit as st
 
 
 # In[3]:
-
+st.title('Case 2 - Wintersportvakanties 1989 - 2016')
+st.title('Toine Smulders, Gabriella Tegov, Kim Nap')
 
 # Assign URL to variable: url
 url = 'https://opendata.cbs.nl/ODataApi/odata/37282/TypedDataSet'
