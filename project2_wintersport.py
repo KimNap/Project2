@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# st.text('# Project 2 asdfasfd')
+text = 'blablabla'
+st.text(text)
 
 # In[ ]:
 
