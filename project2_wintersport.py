@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-text = 'blablabla'
+# text = 'blablabla'
 st.text(text)
 
 # In[ ]:
