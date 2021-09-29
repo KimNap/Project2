@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# text = 'blablabla'
-st.text(text)
 
 # In[ ]:
-
+st.write('dit is mijn text')
 
 # Import package
 import requests
