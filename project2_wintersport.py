@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-st.text("Case 2 - Wintersportvakanties '89 - '16")
+st.title('My title')
 
 # Import package
 import requests
