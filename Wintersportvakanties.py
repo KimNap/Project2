@@ -11,7 +11,7 @@
 
 # Import package
 import requests
-import pandas as pdgi
+import pandas as pd
 
 
 # In[2]:
