@@ -106,6 +106,7 @@ import plotly.graph_objects as go
 fig = px.line(df_na, x="Perioden", y="TotaalLangeWintersportvakanties_1", title='')
 fig.update_xaxes(rangeslider_visible=True)
 fig.show()
+st.write(fig)
 
 
 # In[11]:
@@ -134,6 +135,7 @@ fig.update_layout({'updatemenus':[{'type': "dropdown",
 fig.update_yaxes(title_text='Aantal')
 fig.update_layout(barmode='group')
 fig.show()
+st.write(fig)
 
 
 # In[12]:
@@ -186,6 +188,7 @@ fig.update_layout({'updatemenus':[{'type': "dropdown",
 fig.update_yaxes(title_text='Aantal')
 fig.update_layout(barmode='stack')
 fig.show()
+st.write(fig)
 
 
 # In[13]:
@@ -233,6 +236,7 @@ fig.update_layout({'updatemenus':[{'type': "buttons",
 fig.update_xaxes(rangeslider_visible=True)
 fig.update_xaxes(tickangle=40)
 fig.show()
+st.write(fig)
 
 
 # In[20]:
@@ -245,6 +249,8 @@ fig.update_layout(title_x=0.5)
 fig.update_xaxes(tickangle=40)
 
 fig.show()
+st.write(fig)
+
 
 
 # In[ ]:
