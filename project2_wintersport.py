@@ -7,7 +7,7 @@
 # Import package
 import requests
 import pandas as pd
-
+import streamlit as st
 
 # In[2]:
 
